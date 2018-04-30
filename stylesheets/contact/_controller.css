@@ -1,0 +1,40 @@
+.form-container{
+background:transparent url(../../images/register-icon.png) 70px 0 no-repeat;
+margin:50px auto;
+overflow:auto;
+width:450px;
+}
+.form-container p{
+overflow:auto;
+}
+.form-container label{
+display:block;
+float:left;
+padding:0 20px 0 0;
+text-align:right;
+width:100px;
+}
+.form-container input,.form-container select,.form-container textarea{
+border:1px solid #aaa;
+float:left;
+width:300px;
+}
+.form-container textarea{
+height:200px;
+}
+.form-container h4{
+border-bottom:2px solid black;
+color:#b00;
+margin:0 0 30px 100px;
+padding:5px 0 5px 10px;
+width:300px;
+}
+.form-container .email-subscription-label{
+width:200px;
+}
+#contact_submit{border:1px solid #aaa;
+cursor:pointer;
+height:35px;
+margin:0 0 0 120px;
+width:110px;
+}

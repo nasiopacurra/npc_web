@@ -1,0 +1,62 @@
+.form-container{
+margin:50px auto;
+overflow:auto;
+width:450px;
+}
+.form-header{
+background:transparent url(../../images/register-icon.png) no-repeat;
+}
+.form-container .label-and-input{
+overflow:auto;
+padding:5px 0;
+}
+.form-container .label-container{
+display:block;
+float:left;
+padding:0 20px 0 0;
+text-align:right;
+width:100px;
+}
+.form-container .input-container{
+float:left;
+}
+.form-container input[type='text'],.form-container input[type='password']{
+border:1px solid #ccc;
+}
+#user_session_submit{
+background:transparent url(../../images/button-sign-in.png) no-repeat;
+border:none;
+cursor:pointer;
+height:35px;
+margin:10px 0 0 120px;
+text-indent:-9999px;
+width:110px;
+}
+.form-container h4{
+border-bottom:2px solid black;
+color:#b00;
+margin:0 0 30px 30px;
+padding:5px 0 5px 0;
+width:300px;
+}
+#user_is_email_subscribed{
+float:none;
+margin:15px 0 0 0;
+}
+.form-container .email-subscription-label{
+width:200px;
+}
+#user_submit{
+border:none;
+background:transparent url(../../images/button-register.png) no-repeat;
+cursor:pointer;
+height:35px;
+margin:0 0 0 150px;
+text-indent:-9999px;
+width:110px;
+}
+.form-header a{
+display:block;
+float:right;
+margin-right:100px;
+}

@@ -1,0 +1,151 @@
+#main{
+height:211px;
+padding:0;
+}
+
+#main #npc-intro-main{
+background:transparent url(../../images/open-door.png) left center no-repeat;
+border-right:1px solid #d8d8d8;
+float:left;
+height:100%;
+width:640px;
+-moz-box-shadow:1px 0px 0px #fff;
+}
+#npc-intro{
+color:#888;
+font-weight:bold;
+height:193px;
+line-height:1.6em;
+padding:7px 20px 0 330px;
+text-shadow:1px 1px 1px #fff;
+font-size:1.1em;
+}
+
+
+#content{
+height:530px;
+margin:0 0 12px 0;
+-moz-box-shadow:0px 1px 0px #fff;
+}
+#content #know-npc{
+border-right:1px solid #d8d8d8;
+float:left;
+width:320px;
+-moz-box-shadow:1px 0px 0px #fff;
+text-shadow:1px 1px 1px #fff;
+}
+#content #npc-code-war{
+border-right:1px solid #d8d8d8;
+float:left;
+width:319px;
+-moz-box-shadow:1px 0px 0px #fff;
+text-shadow:1px 1px 1px #fff;
+}
+
+#know-npc h3,#npc-code-war h3{
+border-bottom:1px solid #d8d8d8;
+font-size:13px;
+height:65px;
+margin:0;
+padding:40px 0 0 120px;
+text-transform:uppercase;
+width:200px;
+-moz-box-shadow:0px 1px 0px #fff;
+}
+#know-npc h3{
+background:transparent url(../../images/link-npc.png) no-repeat;
+}
+#npc-code-war h3{
+background:transparent url(../../images/link-code-war.png) no-repeat;
+}
+
+
+.content-area{
+border-bottom:1px solid #d8d8d8;
+height:529px;
+-moz-box-shadow:0px 1px 0px #fff;
+}
+#content .content-area h4{
+font-size:13px;
+line-height:1.3em;
+margin:20px 30px;
+}
+#content .content-area p{
+font-size:0.9em;
+line-height:1.7em;
+margin:10px 30px;
+font-weight:bold;
+}
+#content .content-area a{
+font-weight:bold;
+}
+
+
+
+#side-nav{
+float:left;
+}
+#side-nav ul{
+margin:0;
+padding:0;
+list-style-type:none;
+}
+#side-nav ul li{
+border-bottom:1px solid #d8d8d8;
+font-size:13px;
+font-weight:bold;
+height:105px;
+text-transform:uppercase;
+width:318px;
+text-shadow:1px 1px 1px #fff;
+}
+#side-nav ul li a{
+display:block;
+height:65px;
+width:198px;
+padding:40px 0 0 120px;
+}
+#side-nav ul li.reflexiones{
+background:transparent url(../../images/link-reflexiones.png) no-repeat;
+}
+#side-nav ul li.documentation{
+background:transparent url(../../images/link-documentation.png) no-repeat;
+}
+#side-nav ul li.tienda{
+background:transparent url(../../images/link-tienda.png) no-repeat;
+}
+#side-nav ul li.manualidades{
+background:transparent url(../../images/link-manualidades.png) no-repeat;
+}
+#side-nav ul li.quicklink{
+background:transparent url(../../images/quick-links-heading.png) no-repeat;
+}
+#side-nav ul li.download-center{
+background:transparent url(../../images/link-download-center.png) no-repeat;
+}
+#side-nav ul li.architecture{
+background:transparent url(../../images/link-architecture.png) no-repeat;
+}
+#side-nav a:hover{
+color:#757575;
+}
+
+
+
+#content .recent-forum-topics p{
+font-size:0.9em;
+line-height:1.7em;
+margin:10px 30px;
+}
+#content .recent-forum-topics a{
+font-weight:bold;
+}
+.recent-forum-topics{
+border-bottom:1px solid #d8d8d8;
+height:529px;
+-moz-box-shadow:0px 1px 0px #fff;
+}
+.recent-forum-topics-link{
+color:#757575;
+}
+

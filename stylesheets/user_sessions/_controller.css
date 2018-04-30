@@ -1,0 +1,87 @@
+.form-container{
+margin:50px auto;
+overflow:auto;
+width:600px;
+}
+.form-container .form-header{
+background:transparent url(../../images/login-icon-lock.png) no-repeat;
+}
+.form-container p{
+overflow:auto;
+}
+.form-container label{
+display:block;
+float:left;
+padding:0 20px 0 0;
+text-align:right;
+width:100px;
+}
+.form-container input{
+border:1px solid #aaa;
+float:left;
+}
+#user_session_submit{
+background:transparent url(../../images/button-sign-in.png) no-repeat;
+border:none;
+cursor:pointer;
+height:35px;
+margin:10px 0 0 120px;
+text-indent:-9999px;
+width:110px;
+}
+.form-container h4{
+border-bottom:2px solid black;
+color:#b00;
+margin:0 0 30px 30px;
+padding:5px 0 5px 0;
+width:300px;
+}
+.forgot-password-link{
+display:block;
+float:left;
+padding:0 0 0 10px;
+}
+.form-container label{
+display:block;
+float:left;
+padding:0 20px 0 0;
+text-align:right;
+width:100px;
+}
+.form-container input{
+border:1px solid #aaa;
+float:left;
+}
+#user_session_submit{
+background:transparent url(../../images/button-sign-in.png) no-repeat;
+border:none;
+cursor:pointer;
+height:35px;
+margin:10px 0 0 120px;
+text-indent:-9999px;
+width:110px;
+}
+.form-container h4{
+border-bottom:2px solid black;
+color:#b00;
+margin:0 0 30px 30px;
+padding:5px 0 5px 0;
+width:300px;
+}
+.form-container .label-and-input{
+overflow:auto;
+padding:5px 0;
+}
+.form-container .label-container{
+display:block;
+float:left;
+padding:0 20px 0 0;
+text-align:right;
+width:100px;
+}
+.form-container .input-container{
+float:left;
+}
+.form-container input[type='text'],.form-container input[type='password']{
+border:1px solid #ccc;
+}

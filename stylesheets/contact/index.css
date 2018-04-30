@@ -1,0 +1,11 @@
+#main{
+padding:50px 50px 50px 400px;
+background:transparent url(../../images/contact.png) 50px 100px no-repeat;
+}
+#contact_submit{
+background:transparent url(../../images/button-send.png) no-repeat;
+text-indent:-9999px;
+}
+.form-container ul{color:#b00;
+margin-left:100px;
+}

@@ -1,0 +1,275 @@
+body{
+background:#fff url(../images/bg.jpg) repeat;
+color:#757575;
+font-family:Arial,sans-serif;
+font-size:0.9em;
+line-height:1.5em;
+margin:0;
+padding:0;
+}
+
+section,article,nav,header,footer{
+display:block;
+}
+
+a{
+color:#b00;
+text-decoration:none;
+outline:none;
+}
+
+/* id="wrapper" class="homepage" */
+#wrapper{
+margin:0 auto;
+width:960px;
+}
+
+
+#login-register{
+border-bottom:1px solid #d8d8d8;
+-moz-box-shadow:0px 1px 0px #fff;
+font-size:0.9em;
+font-weight:bold;
+height:55px;
+line-height:3em;
+text-align:right;
+}
+#login-register .text-links{
+float:left;
+margin:10px 0 0 470px;
+width:450px;
+}
+
+
+
+
+#advertisement{
+text-align:center;
+font-size:1.5em;
+border-bottom:1px solid #D8D8D8;
+margin-bottom:12px;
+padding-bottom:7px;
+-moz-box-shadow:0px 1px 0px #fff;
+margin-top:12px;
+}
+
+
+
+nav.top-nav{
+border-bottom:1px solid #d8d8d8;
+height:100px;
+-moz-box-shadow:0px 1px 0px #fff;
+}
+nav.top-nav a.NPC-logo{
+background:transparent url(../images/NPC-logo.png) 0 0 no-repeat;
+display:block;
+float:left;
+height:87px;
+margin:10px 0 0 10px;
+width:87px;
+}
+nav.top-nav a.NPC-logo:hover{
+background:transparent url(../images/NPC-logo.png) -87px 0 no-repeat;
+}
+nav.top-nav ul{
+float:right;
+list-style-type:none;
+margin:30px 0;
+overflow:auto;
+padding:0;
+}
+nav.top-nav ul li{
+float:left;
+padding:10px 8px;
+}
+nav.top-nav ul li a{
+color:#757575;
+display:block;
+font-weight:bold;
+text-transform:uppercase;
+text-shadow:1px 1px 1px #fff;
+}
+nav.top-nav ul li a.active{
+color:#b00;
+}
+nav.top-nav ul li a:hover{
+color:#b00;
+}
+
+
+
+
+
+#main{
+border-bottom:1px solid #d8d8d8;
+-moz-box-shadow:0px 1px 0px #fff;
+}
+
+
+
+
+#news{
+border-bottom:1px solid #d8d8d8;
+-moz-box-shadow:0px 1px 0px #fff;
+}
+#news h2{
+margin:20px 30px;
+font-size:26px;
+}
+#news p{
+margin:20px 30px;
+}
+
+
+
+
+
+footer{
+clear:both;
+height:55px;
+margin:25px auto;
+width:960px;
+}
+footer #footer-left{
+background:transparent url(../images/footer-left.png) center center no-repeat;
+border-right:1px solid #d8d8d8;
+float:left;
+height:75px;
+width:320px;
+-moz-box-shadow:1px 0px 0px #fff;
+}
+footer #footer-right{
+float:left;
+font-size:0.8em;
+font-weight:bold;
+height:50px;
+line-height:50px;
+padding:0;
+text-align:center;
+width:135px;
+margin-top:8px;
+}
+footer #footer-center{
+border-right:1px solid #d8d8d8;
+float:left;
+font-size:0.8em;
+height:50px;
+text-align:center;
+width:500px;
+-moz-box-shadow:1px 0px 0px #fff;
+}
+footer #footer-center a{
+color:#757575;
+display:block;
+float:left;
+}
+footer #footer-center a:hover{
+color:#b00;
+}
+footer #footer-right a#curri-link{
+display:block;
+background:transparent url(../images/CurriCarro_Logo.png) 0 0 no-repeat;
+height:59px;
+margin:0 auto;
+text-indent:-9999px;
+width:95px;
+}
+footer #footer-right a#curri-link:hover{
+background:transparent url(../images/CurriCarro_Logo.png) -95px 0 no-repeat;
+}
+footer #footer-left img{
+margin:0 10px 0 0;
+}
+
+
+
+
+#errorExplanation{
+color:#b00;
+font-size:0.9em;
+margin:10px 0 30px 0;
+}
+
+
+
+.pagination-area{
+clear:both;
+margin:20px 0;
+overflow:auto;
+}
+.pagination{
+padding:20px 0;
+font-size:0.9em;
+overflow:auto;
+}
+.pagination a,.pagination span{
+display:block;
+float:left;
+font-weight:bold;
+margin:0 5px;
+padding:0px 5px;
+}
+.pagination a{
+background-color:#b0b0b0;
+border:2px solid #b0b0b0;
+color:#fff;
+}
+.pagination .current{
+background:#fff;
+border:2px solid #b0b0b0;
+color:#b0b0b0;
+padding:0px 5px;
+}
+.pagination .next_page,.pagination .prev_page{
+background:transparent;
+border:none;
+color:#757575;
+}
+.twitter-icon{
+margin:15px 0 0 5px;
+}
+.flash-notice{
+background:rgba(255,255,255,0.5);
+float:left;
+line-height:1.8em;
+margin:15px 0 0 20px;
+padding:3px 5px;
+position:absolute;
+}
+.alignright{
+display:block;
+float:right;
+}
+.user{
+color:#757575;
+}
+.flash-error{
+background:rgba(255,255,255,0.5);
+color:#B00;
+float:left;
+line-height:1.8em;
+margin:15px 0 0 20px;
+padding:3px 5px;
+position:absolute;
+}
+
+
+
+
+#footer-nav{
+list-style-type:none;
+width:300px;
+font-weight:bold;
+margin:0;
+float:left;
+overflow:hidden;
+}
+#footer-nav li{
+width:100px;
+float:left;
+text-align:left;
+text-transform:uppercase;
+}
+#footer-nav li a{
+text-align:left;
+}

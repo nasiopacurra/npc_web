@@ -1,0 +1,97 @@
+--
+-- Tabla de Usuarios
+--
+CREATE TABLE `npc_users` (
+  `npc_users_id` int(11) NOT NULL auto_increment,
+  `usuario` char(30) default NULL,
+  `password` char(30) default NULL,
+  `nivel` smallint(6) default NULL,
+  `id_cookie` int(11) default NULL,
+  `nombre` varchar(50) default NULL,
+  `email` varchar(50) default NULL,
+  `boletin` tinyint(1) default NULL,
+  PRIMARY KEY  (`npc_users_id`),
+  UNIQUE KEY `idx_npc_users` (`usuario`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Tabla de Registro de Actividad
+--
+CREATE TABLE `npc_logged` (
+  `npc_logged_id` int(11) NOT NULL auto_increment,
+  `usuario` char(30) default NULL,
+  `id_cookie` int(11) default NULL,
+  `remote_addr` char(15) default NULL,
+  `timestamp` datetime default NULL,
+  `objeto` varchar(512) default NULL,
+  PRIMARY KEY  (`npc_logged_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+--
+-- Tabla de RSS. Detalles
+--
+CREATE TABLE `npc_rss_details` (
+  `rssdet_id` int(11) NOT NULL auto_increment,
+  `rssdet_title` text NOT NULL comment 'NasioPaCurra RSS 2.0 Esquema',
+  `rssdet_description` mediumtext NOT NULL comment 'Las ultimas movidas donde estoy metido',
+  `rssdet_link` text comment 'http://www.nasiopacurra.es',
+  `rssdet_language` VARCHAR(5) default 'es-ES',
+  `rssdet_image_title` text comment 'NasioPaCurra RSS 2.0 Esquema',
+  `rssdet_image_url` text comment 'http://www.nasiopacurra.es/images/npc_rss.png|gif|jpg',
+  `rssdet_image_link` text comment 'http://www.nasiopacurra.es',
+  `rssdet_image_width` text comment 'max 144 default 88',
+  `rssdet_image_height` text comment 'max 400 default 31',
+  `rssdet_pubDate` datetime comment 'Sat, 07 Sep 2002 09:42:31 GMT',
+  `rssdet_lastBuildDate` datetime comment 'Sat, 07 Sep 2002 09:42:31 GMT',
+  PRIMARY KEY  (`rssdet_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Tabla de RSS. Items
+--
+CREATE TABLE `npc_rss_items` (
+  `rssitem_id` int(11) NOT NULL auto_increment,
+  `rssitem_title` text NOT NULL,
+  `rssitem_description` text NOT NULL,
+  `rssitem_link` text comment 'http://www.nasiopacurra.es/askdla.klkjl',  
+  `rssitem_pubDate` datetime NOT NULL comment 'Sat, 07 Sep 2002 09:42:31 GMT',
+  `rssitem_enable` char(1) NOT NULL default '1',
+  PRIMARY KEY  (`rssitem_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- SELECT DATE_FORMAT(rssitem_pubDate,'%a, %d %b %Y %T GMT');
+
+
+
+--
+-- Tabla de Calendario
+--
+CREATE TABLE `npc_calenda` (
+  `calenda_id` int(11) NOT NULL auto_increment,
+  `calenda_date` date NOT NULL,
+  `calenda_time` time NOT NULL comment '99:99:99 -> all day',
+  `calenda_title` text NOT NULL,
+  `calenda_description` text NOT NULL,
+  `calenda_enable` char(1) NOT NULL default '1',
+  PRIMARY KEY  (`calenda_id`),
+  UNIQUE KEY `date_time` (`calenda_date`,`calenda_time`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Tabla de Contactos
+--
+CREATE TABLE `npc_contact` (
+  `contact_id` int(11) NOT NULL auto_increment,
+  `contact_subject` char(30) NOT NULL,
+  `contact_category` char(30) NOT NULL,
+  `contact_name` char(30) NOT NULL,
+  `contact_email` char(30) NOT NULL,
+  `contact_body` text NOT NULL,
+  `contact_datetime` datetime NOT NULL,
+  `contact_reply` char(1) NOT NULL default '0',
+  PRIMARY KEY  (`contact_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+
